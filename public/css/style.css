@@ -1,0 +1,27 @@
+body {
+  background: url("https://cdn.pixabay.com/photo/2016/05/19/21/52/car-racing-1404063__480.jpg")no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white
+}
+
+.table {
+  height: 1.5rem;
+  width: 25rem;
+
+}
+
+a {
+  color: white;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+}

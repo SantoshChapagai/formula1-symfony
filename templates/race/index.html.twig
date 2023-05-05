@@ -1,0 +1,25 @@
+{# {% extends base.html.twig %} #}
+
+{# {% block title %}
+Formula1 2023
+{% endblock title %} #}
+{% block head %}
+<link rel="stylesheet" href="/css/style.css">
+{% endblock head %}
+{% block body %}
+<h1>Formula1 Race 2023</h1>
+{% for data in data.MRData.RaceTable.Races  %}
+<div class="container">
+<div class="table">
+
+<a href={{data.url}}>
+<li>{{data.raceName}}</li>
+</a>
+</div>
+<div class="table">
+<li>{{data.Circuit.circuitName}}</li>
+</div>
+</div>
+{% endfor %}
+
+{% endblock %}
